@@ -1,0 +1,44 @@
+ table, tr, td, th {
+border: 1px solid white;
+border-collapse: collapse;
+background-color:rgba(207,3,3,0.995);
+width:100%%;
+ }
+ th{
+   color:blue;
+ }
+ table{
+   width:70%; 
+ }
+.table-par {
+  background:url('List.jpg');
+  width:100%;
+  height:100vh; 
+  border-radius:20px; 
+  padding-top:150px;
+   }
+   
+   body{
+     animation-name:scale; 
+     animation-duration:3s;
+   }
+   #e{
+     border:2px solid green; 
+     border-radius:10px;
+     background:rgb(254,229,229);
+     width:50%;
+     margin-left:20%;
+   }
+   @keyframes scale{
+     from{transform: scale(3)} 
+   }
+  p{
+    margin-left:0%;
+    color:rgb(8,236,212);
+     font-weight:bold; 
+     text-transform:capitalize ;
+    background:rgb(19,18,18);
+    border-radius:10px ;
+    width:90%;
+    word-spacing:5px;
+    }

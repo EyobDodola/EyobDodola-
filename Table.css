@@ -1,0 +1,37 @@
+        body{
+        animation-name:slideLeft;
+        animation-duration:3s; 
+        }
+        @keyframes slideLeft{
+        from{transform:translateX(200%)}
+        }
+          table, td, th {
+            color:white; 
+          border: 1px solid white;
+          border-collapse: collapse;
+          animation-name:table-color;
+          animation-duration:5s;
+          animation-iteration-count:infinite; 
+          background-color:rgba(80,3,7,0.995)
+          }
+          th{
+            height:40px;
+            color:pink;
+            background:rgb(0,0,0);
+          }
+          @keyframes table-color{
+            20%{background:#ff00ed}
+            30%{background:#4cf6ed;}
+            40%{background:#f1a458}
+            60%{background:#f4060654}
+          }
+      #tables {
+        padding-top:200px; 
+        width:70%;
+        padding-left:200px; 
+      } 
+      .table-style{
+       background-image:url('Er.jpg') ; 
+       height:100vh;
+       border-radius:20px; 
+     }   

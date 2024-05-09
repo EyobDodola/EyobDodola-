@@ -1,0 +1,99 @@
+ *{
+  margin-top:0;
+  margin-right:0;
+      }
+.Home {
+      background:url('we.jpg') ;
+      padding-top:50px;
+      height:110vh;
+      margin:20px;
+      border-radius:10px;
+    }
+    button{
+      color:white;
+      border:none;
+      border-radius:10px; 
+      background:#7d2ae8;
+      padding:10px 20px; 
+      margin-left:90px;
+      }
+      button:hover {
+        color:#7d2ae8;
+        background:white;
+        border:none;
+        
+      }
+    img{
+      margin: 10px;
+      border-radius:100%;
+      width:100px;
+      box-shadow:10px 10px 20px rgba(56,40,40,0.995); 
+    }
+    .copyright {
+      font-weight:bold;
+      font-size:20px;
+      text-align:center;
+      margin-top:300px;
+      color: red;
+    }
+    p{
+      margin-right:450px;
+      display:inline-block;
+      }
+      .header {
+        padding-top:5px;
+        width:100%; 
+        background-color:white;
+        position:fixed;
+        top:0px;
+        left:0;
+        animation-name:color-change;
+        animation-duration:10s;
+        animation-iteration-count:infinite;
+      }
+      @keyframes color-change {
+      70%{background:#fc92f2}
+      55%{background:#3535fe} 
+      60%{background:rgb(246,135,52)}
+      65%{background:#59ed41}
+      70%{background:#fad62a}
+      75%{background:#fc0e0e}
+     }
+      .logo{
+        font-weight:bold;
+        font-size:30px; 
+        font-family:'Georgia';
+      }
+      span{
+        color:rgba(189,16,186,0.688);
+      }
+      li{
+        list-style: none;
+        display: inline-block;
+        }
+        ul{
+          display: inline-block;
+          padding-left:242px;
+          word-spacing:25px; 
+        }
+    a{
+      font-weight:bold;
+      font-size :20px;   
+      background-color:#00a6fe;
+      color:white; 
+       border:none;
+       border-radius :10px;
+       }
+    a:hover{
+      color:#00a6fe;
+      background :white;
+      border:solid;
+    }
+  #name{
+    font-style:italic;
+     color:blue;
+  } 
+  h1{
+    font-size:60px; 
+    color:rgba(246,147,42,0.995);
+  }

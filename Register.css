@@ -1,0 +1,46 @@
+ .registration{
+    margin-left:50px;
+    margin-right:50px;
+    background:url('we.jpg');
+    border-radius:10px; 
+     }
+    form{
+      font-size:20px;
+      color:rgb(0,0,0);
+      text-align:center;
+      padding:100px;
+      font-weight:bold;
+       }
+       input {
+         outline:none;
+         border: 2px solid rgb(250,250,250);
+         border-radius:20px;
+       }
+       #submit-box{
+         width:150px;
+         background:#00afff;
+         border:none;
+         font-weight:bold;
+         font-size: 20px;
+          color: white;
+       }
+       #submit-box:hover {
+         background:white;
+         color: #00afff;
+         cursor: pointer;
+       }
+       #Nationality{
+         border-radius:10px; 
+         width:150px;
+         height: 25px;
+         font-weight:bold;
+         outline: none;
+       }
+       body {
+         animation-name:slideLeft; 
+         animation-duration:3s; 
+       }
+       @keyframes  slideLeft{
+         from {transform: translateX(-200%)}
+         
+       }  
